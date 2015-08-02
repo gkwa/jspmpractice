@@ -4,6 +4,9 @@ Stepping through this guide:
 JavaScript Modules and Dependencies with jspm by Jack Franklin
 http://javascriptplayground.com/blog/2014/11/js-modules-jspm-systemjs/
 
+npm serve:
+https://www.npmjs.com/package/serve
+
 ```sh
 npm install --global jspm
 jspm init -y
