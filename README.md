@@ -7,5 +7,6 @@ http://javascriptplayground.com/blog/2014/11/js-modules-jspm-systemjs/
 ```sh
 npm install --global jspm
 jspm init -y
-jspm install -g npm:serve
+# No!: jspm install -g npm:serve # https://github.com/jspm/jspm-cli/issues/585#issuecomment-82209908
+npm install -g serve
 ```
