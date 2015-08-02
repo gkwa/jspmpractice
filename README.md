@@ -10,6 +10,9 @@ https://www.npmjs.com/package/serve
 bundle for production
 https://github.com/jspm/jspm-cli/wiki/Getting-Started
 
+jquery addition
+https://github.com/components/jquery
+
 ```sh
 npm install --global jspm
 jspm init -y
