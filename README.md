@@ -13,10 +13,14 @@ https://github.com/jspm/jspm-cli/wiki/Getting-Started
 jquery addition
 https://github.com/components/jquery
 
+http://javascriptplayground.com/blog/2014/06/es6-modules-today/
+
 ```sh
 npm install --global jspm
 jspm init -y
 # No: jspm install -g npm:serve # https://github.com/jspm/jspm-cli/issues/585#issuecomment-82209908
 npm install -g serve
-jspm bundle lib/main --inject
+# jspm bundle lib/main --inject
+# jspm bundle app/main build.js
+jspm bundle --minify app build.js
 ```
